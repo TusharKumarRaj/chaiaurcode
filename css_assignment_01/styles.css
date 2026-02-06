@@ -1,0 +1,143 @@
+:root{
+    --accent-color: #edecec;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: CursorGothic, sans-serif;
+    color: var(--accent-color);
+}
+
+
+body{
+    background-color: #14120b;
+}
+
+.outline-button{
+    color: var(--accent-color);
+    border: 1px solid rgb(174, 171, 171);
+    border-radius: 30px;
+    padding: 8px 14px;
+    
+}
+
+.filled-button{
+    background-color: var(--accent-color);
+    border-radius: 30px;
+    padding: 8px 14px;
+    color: #14120b;
+
+}
+
+.site-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 13px 25px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-links{
+    padding: 0px 24px;
+    text-decoration: none;
+    color: var(--accent-color);
+    font-family: inherit;
+    font-size: 21px;
+}
+
+.hero{
+    padding: 170px 30px 65px;
+}
+
+.hero-header{
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 900px;
+  text-wrap: balance;
+  margin-bottom: 25px;
+  font-size: 38px;
+}
+
+.hero-top{
+    margin-bottom: 75px;
+}
+
+.hero-bottom{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.hero-bottom img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.trusted-by{
+    margin: 0px 30px 60px;
+}
+
+.trusted-by-paragraph{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.logos-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.logo-card{
+    background-color: #1b1913;
+    height: 65px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px;
+}
+
+.logo-card img{
+    height: 50px;
+    width: auto;
+}
+
+.feature-section{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: 1fr;
+}
+
+.feature-card{
+    height: 900px;
+    background-color: #1b1913;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.feature-card-reverse-grid{
+    display: flex;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows:1fr;
+
+}
