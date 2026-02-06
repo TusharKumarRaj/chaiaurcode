@@ -8,7 +8,7 @@
     <title>Cursor clone</title>   
 </head>
 <body>
- <header>
+ <header class="site-header">
   <nav class="site-navbar">
     <img src="./assets/cursor-logo.svg" alt="img" class="nav-right" style="height: 40px;"></img>
     <div class = "nav-center">
@@ -47,17 +47,240 @@
  </section>
  <section class="feature-section">
     <div class="feature-card">
-        <div>
-          <h3></h3> 
-          <p></p>
-          <p></p>
+        <div class="feature-card-text">
+          <h3 class="h3-heading"> Agents turn ideas into code</h3> 
+          <p class="feature-card-paragraph"> Accelerate development by handing off tasks to
+            Cursor, while you foucs on making decisions.
+          </p>
+          <p class="feature-card-cta"> Learn about agentic development &rarr;</p>
         </div>
-        <div>
+        <div class="feature-card-image">
          <img src="./assets/feature-img-one.webp" alt="img"></img>
         </div>
     </div>
-    <div class="feature-card"></div>
-    <div class="feature-card"></div>
+    <div class="feature-card feature-card-reverse-grid">
+        
+        <div class="feature-card-image">
+         <img src="./assets/feature-img-two.webp" alt="img"></img>
+        </div>
+        <div class="feature-card-text">
+          <h3 class="h3-heading"> Magically accurate autocomplete</h3> 
+          <p class="feature-card-paragraph"> Our specialized Tab model predicts your next action 
+            with striking speed and precision.
+          </p>
+          <p class="feature-card-cta"> Learn about Tab &rarr;</p>
+        </div>
+    </div>
+    <div class="feature-card">
+        <div class="feature-card-text">
+          <h3 class="h3-heading"> In every tool, at every step</h3> 
+          <p class="feature-card-paragraph"> Cursor reviews your PRs in GitHub, 
+            collaborates in Slack, and runs in your terminal.
+          </p>
+          <p class="feature-card-cta"> Learn about Cursor's surfaces &rarr;</p>
+        </div>
+        <div class="feature-card-image">
+         <img src="./assets/feature-img-three.webp" alt="img"></img>
+        </div>
+    </div>
  </section>
+ <section class="testimonial-section">
+    <h2 class="testimonial-header">The new way to build software.</h2>
+    <div class="testimonial-cards">
+        <div class="testimonial-card">
+            <div class="testimonial-card-text">“It was night and day from one batch to another, adoption went from single digits to over 80%. 
+                  It just spread like wildfire, all the best builders were using Cursor.”</div>
+            <div class="testimonial-by">
+                <img src="./assets/diana-hu-avatar.webp">
+                <div class="testimonial-by-text">
+                    <h4 class="testimonial-by-name">Diana Hu</h4>
+                    <h4 class="testimonial-by-brand">General Partner, Y Combinator</h4>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-card-text">“My favorite enterprise AI service is Cursor. 
+                Every one of our engineers, some 40,000, are now assisted by AI and our productivity has gone up incredibly.”</div>
+            <div class="testimonial-by">
+                <img src="./assets/jensen-huang-avatar.webp">
+                <div class="testimonial-by-text">
+                    <h4 class="testimonial-by-name">Jensen Huang</h4>
+                    <h4 class="testimonial-by-brand">President & CEO, NVIDIA</h4>
+                </div>
+            </div>
+        </div>
+            <div class="testimonial-card">
+            <div class="testimonial-card-text">“The best LLM applications have an autonomy slider: 
+            you control how much independence to give the AI. In Cursor, you can do Tab completion, Cmd+K for targeted...</div>
+            <div class="testimonial-by">
+                <img src="./assets/andrej-karpathy-avatar.webp">
+                <div class="testimonial-by-text">
+                    <h4 class="testimonial-by-name">Andrej Karpathy</h4>
+                    <h4 class="testimonial-by-brand">CEO, Eureka Labs</h4>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-card-text">“The best LLM applications have an autonomy slider: you control how much independence to give the AI.
+            In Cursor, you can do Tab completion, Cmd+K for targeted... </div>
+            <div class="testimonial-by">
+                <img src="./assets/patrick-collison-avatar.webp">
+                <div class="testimonial-by-text">
+                    <h4 class="testimonial-by-name">Patrick Collison</h4>
+                    <h4 class="testimonial-by-brand">Co‑Founder & CEO, Stripe</h4>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-card-text">“Cursor quickly grew from hundreds to thousands of extremely enthusiastic Stripe employees.
+            We spend more on R&D and software creation than...</div>
+            <div class="testimonial-by">
+                <img src="./assets/shadcn-avatar.webp">
+                <div class="testimonial-by-text">
+                    <h4 class="testimonial-by-name">shadcn</h4>
+                    <h4 class="testimonial-by-brand">Creator of shadcn/ui</h4>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-card-text">“It's definitely becoming more fun to be a programmer.
+            We are at the 1% of what's possible, and it's in interactive experiences like Cursor where models like GPT-5 shine... </div>
+            <div class="testimonial-by">
+                <img src="./assets/greg-brockman-avatar.webp">
+                <div class="testimonial-by-text">
+                    <h4 class="testimonial-by-name">Greg Brockman</h4>
+                    <h4 class="testimonial-by-brand">President, OpenAI</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <section class="use-case">
+    <h3 class="h3-heading"> Stay on the frontier</h3> 
+     <div class="usecase-card">
+          <h3 class="h3-heading" style="font-size: 27px;"> Use the best model for every task</h3> 
+          <p class="feature-card-paragraph" style="font-size: 27px; width:80%;"> Choose between every cutting-edge model from OpenAI, Anthropic, Gemini, xAI, and Cursor.</p>
+          <p class="feature-card-cta"> Explore Models &#8599;</p>
+          <div class="usecase-image">
+            <img src="./assets/usecase-card-one.jpg"></img>
+        </div>
+        </div> 
+         <div class="usecase-card">
+          <h3 class="h3-heading" style="font-size: 27px;"> Complete codebase understanding</h3> 
+          <p class="feature-card-paragraph" style="font-size: 27px; width:80%;"> Cursor learns how your codebase works, no matter the scale or complexity.</p>
+          <p class="feature-card-cta"> Learn about codebase indexing &#8599;</p>
+          <div class="usecase-image">
+            <img src="./assets/usecase-card-two.webp"></img>
+        </div>
+        </div> 
+         <div class="usecase-card">
+          <h3 class="h3-heading" style="font-size: 27px;">Develop enduring software</h3> 
+          <p class="feature-card-paragraph" style="font-size: 27px; width:80%;"> Trusted by over half of the Fortune 500 to accelerate development, securely and at scale.</p>
+          <p class="feature-card-cta"> Explore enterprise &#8599;</p>
+          <div class="usecase-image">
+            <img src="./assets/usecase-card-three.jpg"></img>
+        </div>
+        </div> 
+ </section>
+ <section class="changelog">
+      <h3 class="h3-heading"> Changelog</h3> 
+      <div class="change-info-grid">
+        <div class="change-info-card">
+            <div class="change-info-card-top">
+                <div class="version-pill">2.4</div> <div class="change-date">Jan 22,2026</div>
+            </div>
+            <div class="change-description">Subagents, Skills, and Image Generation</div>
+        </div>
+        <div class="change-info-card">
+            <div class="change-info-card-top">
+                <div class="change-date">Jan 16,2026</div>
+            </div>
+            <div class="change-description">CLI Agent Modes and Cloud Handoff</div>
+        </div>
+        <div class="change-info-card">
+            <div class="change-info-card-top">
+               <div class="change-date">Jan 08,2026</div>
+            </div>
+            <div class="change-description">New CLI Features and Improved CLI Performance</div>
+        </div>
+         <div class="change-info-card">
+            <div class="change-info-card-top">
+                <div class="version-pill">2.3</div> <div class="change-date">Dec 22,2025</div>
+            </div>
+            <div class="change-description">Layout Customization and Stability Improvements</div>
+        </div>
+      </div>
+      <p class="feature-card-cta"> See what's new in Cursor  &rarr;</p>
+ </section>
+ <section class="about-team">
+       <div class="feature-card" style="height: 400px;">
+        <div class="feature-card-text">
+          <p class="feature-card-paragraph" style="color: var(--accent-color)"> Cursor is an applied research team focused on building the future of software development.
+          </p>
+          <p class="feature-card-cta"> Join us &rarr;</p>
+        </div>
+        <div class="feature-card-image">
+         <img src="./assets/homepage-team-photo.webp" alt="img"></img>
+        </div>
+    </div> 
+ </section>
+ <section class="final-cta">
+ <h1 class="final-cta-text">Try Cursor Now.</h1>
+ <button class="filled-button final-cta-button">Download for Windows</button>
+ </section>
+  <footer>
+      <div class="footer-card">
+        <div class="footer-grid">
+         <div class="footer-grid-item">
+            <h3 class="footer-grid-item-heading">Product</h3>
+            <a class="footer-grid-link">Agents</a>
+            <a class="footer-grid-link">Enterprise</a>
+            <a class="footer-grid-link">Code Review</a>
+            <a class="footer-grid-link">Tab</a>
+            <a class="footer-grid-link">CLI</a>
+            <a class="footer-grid-link">Cloud Agents</a>
+            <a class="footer-grid-link">Pricing</a>
+         </div>
+         <div class="footer-grid-item">
+            <h3 class="footer-grid-item-heading">Resources</h3>
+            <a class="footer-grid-link">Download</a>
+            <a class="footer-grid-link">Changelog</a>
+            <a class="footer-grid-link">Docs</a>
+            <a class="footer-grid-link">Forum</a>
+            <a class="footer-grid-link">Status</a>
+         </div>
+         <div class="footer-grid-item">
+            <h3 class="footer-grid-item-heading">Company</h3>
+            <a class="footer-grid-link">Careers</a>
+            <a class="footer-grid-link">Blog</a>
+            <a class="footer-grid-link">Community</a>
+            <a class="footer-grid-link">Students</a>
+            <a class="footer-grid-link">Brand</a>
+            <a class="footer-grid-link">Anysphere</a>
+         </div>
+         <div class="footer-grid-item">
+            <h3 class="footer-grid-item-heading">Legal</h3>
+            <a class="footer-grid-link">Terms of Service</a>
+            <a class="footer-grid-link">Privacy Policy</a>
+            <a class="footer-grid-link">Data Use</a>
+            <a class="footer-grid-link">Security</a>
+         </div>
+         <div class="footer-grid-item">
+            <h3 class="footer-grid-item-heading">Connect</h3>
+            <a class="footer-grid-link">X</a>
+            <a class="footer-grid-link">LinkedIn</a>
+            <a class="footer-grid-link">YouTube</a>
+         </div>
+        </div>
+        <div class="footer-end">
+         <div class="footer-end-left">
+            <div class="footer-end-left-text">&copy; 2026 Anysphere, Inc.</div>
+            <div class="footer-end-left-text">&#128737; SOC 2 Certified</div>
+           </div>
+         <div class="footer-end-right">
+           <img src="./assets/footer-right.png">
+      </div>
+      </div>
+    </footer>
 </body>
 </html>
